@@ -1,0 +1,326 @@
+body {
+  background-color: #f4f8fa;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.container {
+  max-width: 100%;
+}
+
+.header__logo {
+  margin-top: 10px;
+  margin-left: 99px;
+  margin-bottom: 10px;
+}
+
+.container__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.09);
+  margin-bottom: 24px;
+}
+
+.header__ul {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin-right: 99px;
+}
+
+.header__item {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: rgba(0, 0, 0, 0.85);
+  transition: all 0.5s linear;
+}
+
+.header__item:hover {
+  color: #69921e;
+}
+
+.header__li__2 {
+  border: 1px solid #d9d9d9;
+  padding: 2px 8px;
+  border-radius: 3px;
+  transition: all 0.5s linear;
+}
+
+.header__li__2:hover {
+  color: white;
+  background-color: #047c28;
+}
+
+.container__card {
+  margin-left: 300px;
+  border-radius: 10px;
+  width: 750px;
+  height: 810px;
+  background-color: white;
+  margin-bottom: 64px;
+}
+
+.card__photo {
+  margin-top: 40px;
+  margin-bottom: 24px;
+  margin-left: 320px;
+}
+
+.card__steel {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 29px;
+  line-height: 39px;
+  color: rgba(0, 0, 0, 0.85);
+  text-align: center;
+}
+
+.login__text {
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+}
+
+.card__word1 {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #444150;
+}
+
+.card__word2 {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  color: #01bab3;
+  border-bottom: 2px solid #01bab3;
+}
+
+.email__text {
+  margin-top: 40px;
+}
+
+.email__label {
+  margin-left: 45px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #444150;
+}
+
+.email__input {
+  margin-left: 45px;
+  padding: 10px 448px 14px 16px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #444150;
+  opacity: 0.5;
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+  outline: none;
+}
+
+.phone__text {
+  margin-top: 24px;
+}
+
+.phone__label {
+  margin-left: 45px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #444150;
+}
+
+.phone__input {
+  margin-bottom: 20px;
+  margin-left: 45px;
+  padding: 10px 448px 14px 16px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #444150;
+  opacity: 0.5;
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+  outline: none;
+}
+
+.create {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.one__text {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #444150;
+}
+
+select {
+  padding: 10px 230px 14px 16px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #444150;
+  outline: none;
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+}
+
+.place__text {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #444150;
+}
+
+.place5__text {
+  padding: 10px 110px 14px 16px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #444150;
+  opacity: 0.5;
+  outline: none;
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+}
+
+.password__text {
+  margin-top: 24px;
+}
+
+.password__label {
+  margin-left: 45px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #444150;
+}
+
+.password__input {
+  margin-left: 45px;
+  padding: 10px 448px 14px 16px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #444150;
+  opacity: 0.5;
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+  outline: none;
+}
+
+.password__input2 {
+  margin-top: 24px;
+}
+
+.password__label__2 {
+  margin-left: 45px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #444150;
+}
+
+.password__input__2 {
+  margin-left: 45px;
+  padding: 10px 448px 14px 16px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #444150;
+  opacity: 0.5;
+  background: #ffffff;
+  border: 1px solid #fb3838;
+  border-radius: 6px;
+  outline: none;
+}
+
+.ramka {
+  text-align: center;
+}
+
+.card__ramka {
+  margin-top: 30px;
+  padding: 12px 295px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  background: #01bab3;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.5s linear;
+}
+
+.card__ramka:hover {
+  color: #e1d8f1;
+  background-color: rgb(38, 13, 151);
+}
+
+.footer__end {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-left: 500px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #778699;
+  width: 366px;
+  height: 46px;
+}
